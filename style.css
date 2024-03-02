@@ -1,0 +1,98 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,28,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+
+.myNav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+h1{
+    color:aqua;
+}
+
+.navList{
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px ;
+    color:aqua;
+
+}
+
+.navSec{
+    display: flex;
+    justify-content: space-between;
+
+}
+hellow
+.subHead{
+    text-align: center;
+}
+.mainPart{
+    border-radius: 10px;
+    height: auto;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(34, 34, 34);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+}
+
+.myButt{
+    padding-top: 30px;
+    width: auto;
+    text-align: center;
+    border: 5px;
+}
+
+.sub2{
+    width: 80%;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
+    padding-top: 20px;
+    height: 100%;
+    display: flex;
+
+}
+
+.myImg{
+    width: 100%;
+    height: 100%;
+}
+
+.fig1{
+    width: 40%;
+    height: 40%;
+}
+
+.footer{
+    height: 50px;
+    background-color: black ;
+
+}
+
+.footer h3{
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.text{
+    color: white;
+}
+
+.input{
+    margin: 10px;
+    height: 22px;
+}
+
