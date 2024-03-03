@@ -1,4 +1,4 @@
-console.log("star');
+console.log("star");
 //validate the input
 const signin = document.getElementById("signin");
 const username = document.getElementById("user");
