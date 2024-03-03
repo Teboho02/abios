@@ -1,18 +1,34 @@
 
+//validate the input
+const signin = document.getElementById("signin");
+const username = document.getElementById("user");
+const password = document.getElementById("pass");
 
-let url = "https://jsonplaceholder.typicode.com/photos";
+function validate(username , password){
 
-function getData(url){
-    const req = new XMLHttpRequest();
 
-    req.onreadystatechange = function(){
+    if(username ==="" || password === ""){
 
-        const data = req.responseData;
-        console.log(data);
+        return 0;
+    }
 
-    };
-
-    req.open("GET", url, true);
+    return 1;
+    
+    
+        
 }
 
-getData(url);
+
+signin.addEventLister("click", function(){
+
+    userName = username.textContent;
+    if(validate===1){
+        //authenticate the password and login if correct credentials are provided
+    }
+
+    else{
+        console.log("unfilled form somewhere");
+    }
+    
+        
+};
